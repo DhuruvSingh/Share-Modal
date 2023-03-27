@@ -1,16 +1,15 @@
 const modal = document.querySelector(".modal");
 const overlay = document.querySelector(".overlay");
 
-// open modal function
-
+//   Modal open function
 const openModal = () => {
-    console.log("Modal is open");
-    modal.classList.add("active");
-    overlay.classList.add("overlayactive");
+  console.log("Modal is Open");
+  modal.classList.add("active");
+  overlay.classList.add("overlayactive");
 };
 
-// close modal function
+// Modal close function
 const closeModal = () => {
-    modal.classList.remove("active");
-    overlay.classList.remove("overlayactive");
-}
+  modal.classList.remove("active");
+  overlay.classList.remove("overlayactive");
+};
