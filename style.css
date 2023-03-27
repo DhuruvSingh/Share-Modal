@@ -4,7 +4,9 @@
   }
   
   body {
-    background-color: #000;
+    background-image: url(./assets/bg.jpg);
+    background-size: cover;
+    /* background-color: #000; */
     font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   }
   
@@ -20,7 +22,7 @@
     width: 13em;
     height: 13em;
     border-radius: 50%;
-    box-shadow: 0 0 50px #d84869;
+    box-shadow: 0 0 50px white;
     background: linear-gradient(-25deg, #d84869, #f46641);
     animation: circle1Animate 15s infinite;
   }
@@ -40,8 +42,8 @@
     width: 19em;
     height: 19em;
     border-radius: 50%;
-    box-shadow: 0 0 50px #5648d8;
-    background: linear-gradient(-25deg, #5648d8, #8641f4);
+    box-shadow: 0 0 71px white;
+    background: linear-gradient(-25deg, hsl(185deg 33% 52%), hsl(185deg 39% 73%));
     animation: circle2Animate 8s infinite;
   }
   @keyframes circle2Animate {
